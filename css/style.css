@@ -1,0 +1,947 @@
+/*TODO EL DOCUMENTO*/
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+/*FIN DE TODO EL DOCUMENTO*/
+
+/*INDEX.HTML
+
+/*BODY EN GENERAL*/
+  body {
+    font-family: 'Open Sans', sans-serif;
+       } 
+.contenedor{
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+/*FIN DEL BODY EN GENERAL*/
+
+/*HEADER*/
+  header#headerIndex {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(209, 219, 189, 0.5); 
+         }
+  .logo {
+    padding: 25px 0;
+        }
+  .logo img{
+    width: 100px;
+    display: block;
+    margin: auto;
+           }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 430px;
+    margin: auto;
+        }
+  .menu#menuIndex a {
+    text-decoration: none;
+    color: rgb(147, 161, 241);
+    font-size: 14px;
+    font-family: 'Noto Sans Mono', monospace;
+          }
+  .menu#menuIndex a:hover {
+    color:#6360ee;
+                }
+/*FIN DEL HEADER*/
+
+/*BANNER PRINCIPAL*/
+  .banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/banner1.png);
+    background-position: center;
+    background-size: cover;
+        }
+  .banner > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(209, 219, 189, 0.5);
+        }
+  .llamada-accion{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+                 }
+  .llamada-accion p{
+    font-size: 18px;
+    color: rgba(110, 112, 141, 0.87);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Aldrich', sans-serif;
+                   }
+  .llamada-accion h2{
+    font-size: 42px;
+    color: rgb(147, 161, 241);
+    width: 100%;
+    padding: 45px 0;
+    background-color: rgba(212, 209, 209, 0.336);
+    max-width: 470px;
+    font-family: 'Anybody', cursive;
+    font-family: 'Silkscreen', cursive;
+                    }
+  .llamada-accion a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(110, 112, 141, 0.87);
+    padding: 10px 50px;
+    background-color: rgba(212, 209, 209, 0.418);
+    margin-top: 35px;
+    font-family: 'Aldrich', sans-serif;
+    transition: all 0.3s ease-in-out;
+                   }
+/*FIN DE BANNER PRINCIPAL*/
+
+/*SECCION DE BIENVENIDA*/
+  .bienvenida{
+    width: 100%;
+    background-color: #3e606f;
+    margin-top: 2px;
+    color: #ffffff;
+    text-align: center;
+             }
+  .bienvenida h3{
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    font-family: 'Aldrich', sans-serif;
+                }
+  .bienvenida p{
+    font-size: 16px;
+    padding-bottom: 35px;
+    line-height: 1.7em;
+    max-width: 370px;
+    margin: 0 auto;
+    font-family: 'Inter Tight', sans-serif;
+               }
+/*FIN DE SECCION DE BIENVENIDA*/
+
+/*SECCION DE SOBRE NOSOTROS*/
+  .nosotros{
+    padding-bottom: 80px;
+           }
+
+  .nosotros > .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+                         }
+  .foto-equipo{
+    width: 100%;
+    max-width: 570px;
+              }
+  .foto-equipo img{
+    width: 100%;
+                  }
+  .conocenosIndex{
+    padding: 15px 0px;
+    max-width: 570px;
+    font-family: 'Inter Tight', sans-serif;
+            }
+  .conocenosIndex p:nth-child(1){
+    font-size: 14px;
+    color: rgba(110, 112, 141, 0.87);
+    padding-bottom: 20px;
+    border-bottom:1px solid #a2a2a2;
+                           }
+  .conocenosIndex h3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgb(147, 161, 241);
+    font-size: 18px;
+    font-family: 'Aldrich', sans-serif;
+               }
+  .conocenosIndex p:nth-child(3){
+    font-size: 14px;
+    color: rgba(110, 112, 141, 0.87);
+    padding-bottom: 25px;
+                           }
+
+  .conocenosIndex p:nth-child(4){
+    font-size: 14px;
+    color:#646464;
+    padding-bottom: 20px;
+                           }
+
+  .conocenosIndex a{
+    font-size: 15px;
+    color: rgb(147, 161, 241);
+              }
+/*SECCION SOBRE NOSOTROS: TODO*/
+  @media all and (min-width:769px){
+    .nosotros{
+      padding-top: 80px;
+             }
+    .foto-equipo{
+      margin-right: 30px;
+                }
+    .conocenos{
+      padding-left: 30px;
+      text-align: left;
+              }
+                                  }
+/*FIN DE SECCION DE SOBRE NOSOTROS*/
+
+/*PIE DE PÁGINA*/
+  .top-footerIndex{
+    background-color: #3e606f;
+    height:25px;
+             }
+  .center-footerIndex{
+    background-color: rgba(147, 161, 241, 0.397);
+                }
+  .center-footerIndex .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+                            }
+  .center-footerIndex .widget{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    color:#fffffff1;
+    max-width: 270px;
+    margin: 0 auto;
+                        }
+  .center-footerIndex .widget h4{
+    padding-bottom: 35px;
+    font-size: 18px;
+                           }
+  .center-footerIndex .widget p{
+    font-size: 14px;
+                          }
+  .bottom-footerIndex{
+    background-color: #3e606f;
+    height:25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+                }
+  .bottom-footerIndex p{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+                  }
+/*FIN DE PIE DE PÁGINA*/
+
+/*FIN DE INDEX.HTML
+
+/*SOBREMI.HTLM
+
+/*CABECERA*/
+header{
+  width: 100%;
+  height: 200px;
+  background-color:rgb(252, 244, 176);
+}
+.logo{
+  padding: 25px 0;
+}
+.logo img{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 430px;
+  margin: auto;
+}
+.menu a{
+  text-decoration: none;
+  color: rgb(247, 211, 112);
+  font-size: 14px;
+  font-family: 'Aldrich', sans-serif;
+font-family: 'Noto Sans Mono', monospace;
+}
+.menu a:hover{
+  color:#f1c01e;
+}
+/*FIN DE CABECERA*/
+
+/*BODY EN GENERAL: SECCIONES*/
+
+/*TEMPLATE LADO IZQUIERDO: SECCION JENN Y ANDRÉ*/
+.nosotros{
+  padding-bottom: 40px;
+}
+.nosotros > .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.foto-equipo{
+  width: 100%;
+  max-width: 570px;
+}
+.foto-equipo img{
+  width: 100%;
+}
+.conocenos{
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 570px;
+  font-family: 'Inter Tight', sans-serif;
+}
+.conocenos p:nth-child(1){
+  font-size: 17px;
+  color: rgba(247, 211, 112, 0.897);
+  padding-bottom: 20px;
+  border-bottom:1px solid #a2a2a2;
+}
+.alessan3 {
+  font-weight: bold;
+}
+.conocenos h3{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgb(247, 211, 112);
+  font-size: 18px;
+  font-family: 'Aldrich', sans-serif;
+}
+.conocenos p:nth-child(3){
+  font-size: 17px;
+  color: rgb(247, 211, 112);
+  padding-bottom: 15px;
+}
+.conocenos p:nth-child(4){
+  font-size: 17px;
+  color:#646464;
+  padding-bottom: 20px;
+}
+.conocenos a{
+  font-size: 15px;
+  color: rgb(247, 211, 112);
+}
+/*TODA LA SECCION EN GENERAL*/
+@media all and (min-width:769px){
+  .nosotros{
+    padding-top: 40px;
+  }
+  .foto-equipo{
+    margin-right: 30px;
+  }
+  .conocenos{
+    padding-left: 30px;
+    text-align: left;
+  }
+}
+/*FIN DE TODA LA SECCION EN GENERAL*/
+
+/*FIN TEMPLATE LADO IZQUIERDO: SECCION JENN Y ANDRÉ*/
+
+/*TEMPLATE LADO DERECHO: SECCION ALESSANDRA*/
+.foto-equipo2{
+  width: 100%;
+  max-width: 570px;
+}
+.foto-equipo2 img{
+  width: 100%;
+}
+.conocenos2-SB{
+  padding: 15px 0px;
+  max-width: 570px;
+  font-family: 'Inter Tight', sans-serif;
+}
+.conocenos2-SB p:nth-child(1){
+  font-size: 17px;
+  color: rgb(247, 211, 112);
+  padding-bottom: 20px;
+  border-bottom:1px solid #a2a2a2;
+}
+.conocenos2-SB h3{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgb(247, 211, 112);
+  font-size: 18px;
+  font-family: 'Aldrich', sans-serif;
+}
+.conocenos2-SB p:nth-child(3){
+  font-size: 17px;
+  color: rgb(247, 211, 112);
+  padding-bottom: 15px;
+}
+.conocenos2-SB p:nth-child(4){
+  font-size: 17px;
+  color:#646464;
+  padding-bottom: 20px;
+}
+.conocenos2-SB a{
+  font-size: 15px;
+  color: rgb(247, 211, 112);
+}
+/*TODA LA SECCION EN GENERAL*/
+@media all and (min-width:769px){
+  .nosotros{
+    padding-top: 40px;
+  }
+  .foto-equipo2{
+    margin-right: 30px;
+  }
+  .conocenos2{
+    padding-right: 30px;
+    text-align: left;
+  }
+}
+/*TEMPLATE LADO DERECHO: SECCION ALESSANDRA*/
+
+/*PIE DE PÁGINA*/
+.top-footer{
+  background-color: rgb(252, 244, 176);;;
+  height:25px;
+}
+.center-footer{
+  background-color: rgba(253, 249, 207, 0.699);
+}
+.center-footer .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.center-footer .widget{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  color:#fffffff1;
+  max-width: 270px;
+  margin: 0 auto;
+}
+.center-footer img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.center-footer .widget h4{
+  padding-bottom: 35px;
+  font-size: 18px;
+}
+.center-footer .widget p{
+  font-size: 14px;
+}
+.bottom-footer{
+  background-color: rgb(252, 244, 176);
+  height:25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.bottom-footer p{
+  color: #201f1f;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+}
+/*FIN DE PIE DE PÁGINA*/
+
+/*FIN DE SOBREMI.HTML
+
+/*MEGUSTA.HTML
+
+/*CABECERA*/
+header#MeGusta{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(205, 238, 141, 0.623);
+}
+.logo{
+  padding: 25px 0;
+}
+.logo img{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+.menuM{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 430px;
+  margin: auto;
+}
+.menuM a{
+  text-decoration: none;
+  color: rgb(140, 189, 107);
+  font-size: 14px;
+  font-family: 'Aldrich', sans-serif;
+font-family: 'Noto Sans Mono', monospace;
+}
+.menuM a:hover{
+  color:#2b6334;
+}
+/*FIN DE CABECERA*/
+
+/*BANNER PRINCIPAL*/  
+.bannerM{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/Eren.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bannerM > div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(209, 219, 189, 0.5);
+}
+.llamada-accion-M{
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.llamada-accion-M p{
+  font-size: 18px;
+  color: rgba(51, 51, 54, 0.938);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Aldrich', sans-serif;
+}
+.llamada-accion-M h2{
+  font-size: 42px;
+  color: rgb(140, 189, 107);
+  width: 100%;
+  padding: 45px 0;
+  background-color: rgba(212, 209, 209, 0.336);
+  max-width: 470px;
+  font-family: 'Anybody', cursive;
+  font-family: 'Silkscreen', cursive;
+}
+.llamada-accion-M a{
+  font-size: 18px;
+  text-decoration: none;
+  color: rgba(51, 51, 54, 0.938);
+  padding: 10px 50px;
+  background-color: rgba(212, 209, 209, 0.418);
+  margin-top: 35px;
+  font-family: 'Aldrich', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+.llamada-accion-M a:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+/*FIN DE BANNER PRINCIPAL*/
+
+/*SECCION DE BIENVENIDA*/
+.bienvenidaM{
+  width: 100%;
+  background-color: rgb(104, 175, 101);
+  margin-top: 2px;
+  color: #ffffff;
+  text-align: center;
+}
+.bienvenidaM h3{
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Aldrich', sans-serif;
+}
+.bienvenidaM p{
+  font-size: 16px;
+  padding-bottom: 35px;
+  line-height: 1.7em;
+  max-width: 370px;
+  margin: 0 auto;
+  font-family: 'Inter Tight', sans-serif;
+}
+/*FIN DE SECCION DE BIENVENIDA*/
+
+/*SECCION DE BILLIE EILISH*/
+.nosotrosMe{
+  padding-bottom: 50px;
+}
+.nosotrosMe > .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.foto-equipo{
+  width: 100%;
+  max-width: 570px;
+}
+.foto-equipo img{
+  width: 100%;
+}
+.conocenosMe{
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 570px;
+  font-family: 'Inter Tight', sans-serif;
+}
+.conocenosMe p:nth-child(1){
+  font-size: 17px;
+  color: rgb(104, 175, 101);
+  padding-bottom: 20px;
+  border-bottom:1px solid #a2a2a2;
+}
+.conocenosMe h3{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgb(104, 175, 101);
+  font-size: 18px;
+  font-family: 'Aldrich', sans-serif;
+}
+.conocenosMe p:nth-child(4){
+  font-size: 17px;
+  color:#646464;
+  padding-bottom: 20px;
+}
+/*TODO BILLIE EILISH EN GENERAL*/
+@media all and (min-width:769px){
+  .nosotrosMe{
+    padding-top: 40px;
+  }
+  .foto-equipo{
+    margin-right: 30px;
+  }
+  .conocenosMe{
+    padding-left: 30px;
+  }
+  .billie1{
+    text-align: left;
+  }
+}
+/*FIN DEL BILLIE EILISH GENERAL*/
+.conocenosMe a{
+  color:  rgb(104, 175, 101);
+}
+/*FORMULARIO BILLIE*/
+.formulario-billie {
+  float: right;
+  width: 540px;
+  height: 30px;
+  padding-bottom: 0px;
+   padding-top: 20px; height: 3px;
+  border-bottom: 1px solid #a2a2a2;;
+}
+#recomiendamesong {
+  background-color: rgba(205, 238, 141, 0.623);
+  border-style: dotted;
+  text-align: center;
+  font-family: monospace;
+  height: 23px;
+}
+/*FIN FORMULARIO BILLIE*/
+/*FIN DE LA SECCION DE BILLIE EILISH*/
+
+/*SECCION DE ANIME*/
+.foto-equipo2{
+  width: 100%;
+  max-width: 570px;
+}
+.nosotros2 > .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.foto-equipo2 img{
+  width: 100%;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+.conocenos2{
+  padding: 15px 0px;
+  max-width: 570px;
+  font-family: 'Inter Tight', sans-serif;
+  text-align: center;
+}
+.conocenos2 p:nth-child(1){
+  font-size: 17px;
+  color: rgb(104, 175, 101);
+  padding-bottom: 20px;
+  border-bottom:1px solid #a2a2a2;
+}
+.conocenos2 h3{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgb(104, 175, 101);
+  font-size: 18px;
+  font-family: 'Aldrich', sans-serif;
+}
+.conocenos2 p#MeP:nth-child(4){
+  font-size: 17px;
+  color:#646464;
+  padding-bottom: 20px;
+}
+/*TODO EN GENERAL ANIME*/
+@media all and (min-width:769px){
+  .nosotros{
+    padding-top: 40px;
+  }
+  .foto-equipo2{
+    margin-right  : 30px;
+  }
+  .conocenos2{
+    padding-right: 30px;
+  }
+  .anime2 {
+    text-align: left;
+  }
+  .conocenos2 a{
+    color:  rgb(104, 175, 101);
+  }
+}
+/*FIN DE TODO EN GENERAL ANIME*/
+/*FORMULARIO ANIME*/
+.formulario-anime {
+  float: left;
+  width: 540px;
+  height: 30px;
+  padding-bottom: 0px;
+   padding-top: 20px; height: 3px;
+  border-bottom: 1px solid #a2a2a2;;
+}
+#recomiendameanime {
+  background-color: rgba(205, 238, 141, 0.623);
+  border-style: dotted;
+  text-align: center;
+  font-family: monospace;
+  height: 23px;
+}
+/*FIN FORMULARIO ANIME*/
+/*FIN DE LA SECCION DE ANIME*/
+
+/*PIE DE PÁGINA*/  
+.top-footer-Me{
+  background-color: rgb(104, 175, 101);
+  height:25px;
+}
+.center-footer-Me{
+  background-color: rgba(205, 238, 141, 0.623);
+}
+.center-footer-Me .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.center-footer-Me .widget{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  color:#fffffff1;
+  max-width: 270px;
+  margin: 0 auto;
+}
+.center-footer-Me .widget h4{
+  padding-bottom: 35px;
+  font-size: 18px;
+}
+.center-footer-Me .widget p{
+  font-size: 14px;
+}
+.bottom-footer-Me{
+  background-color: rgb(104, 175, 101);
+  height:25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.bottom-footer-Me p{
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+}
+/*FIN DE PIE DE PÁGINA*/
+
+/*FIN DE MEGUSTA.HTML
+
+/*CONTACTO.HTML
+
+/*CABECERA*/
+header#HeC{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(243, 129, 123, 0.514);
+}
+.logo{
+  padding: 25px 0;
+}
+.logo img{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+.menu-MeCo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 430px;
+  margin: auto;
+}
+.menu-MeCo a{
+  text-decoration: none;
+  color: rgb(228, 119, 114);
+  font-size: 14px;
+  font-family: 'Aldrich', sans-serif;
+font-family: 'Noto Sans Mono', monospace;
+}
+.menu-MeCo a:hover {
+  color:#db3327;
+}
+/*FIN DE CABECERA*/
+
+/*SECCION DE BIENVENIDA*/
+.bienvenida-Con{
+  width: 100%;
+  background-color: rgb(228, 119, 114);
+  margin-top: 2px;
+  color: #ffffff;
+  text-align: center;
+}
+.bienvenida-Con h3{
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Aldrich', sans-serif;
+}
+.bienvenida-Con p{
+  font-size: 16px;
+  padding-bottom: 35px;
+  line-height: 1.7em;
+  max-width: 370px;
+  margin: 0 auto;
+  font-family: 'Inter Tight', sans-serif;
+}
+/*FIN DE SECCION DE BIENVENIDA*/
+/*INICIO DEL FORMULARIO*/
+#formTitle-C {
+  font-size: 16px;
+  font-family: 'Aldrich', sans-serif;
+  padding-top: 15px;
+  text-align: center;
+  color: rgb(228, 119, 114);
+}
+form#formulario-C {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 794px;
+  text-align: center;
+}
+#formulario-C p {
+  padding: 10px;
+}
+input#userName, input#userEmail, textarea {
+  outline-style: none;
+  border-style: line;
+  padding: 2px;
+  width: 700px;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 17px;
+  color: gray;
+}
+button.btn.btn-primary {
+  background-color: rgb(228, 119, 114);
+  border-style: none;
+  padding: 3px;
+  border-radius: 3px;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+  width: 300px;
+}
+/*PIE DE PÁGINA*/  
+.top-footer-Con{
+  background-color: rgb(228, 119, 114);
+  height:25px;
+}
+.center-footer-Con{
+  background-color: rgba(243, 129, 123, 0.514);
+}
+.center-footer-Con .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.center-footer-Con .widget{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:#fffffff1;
+  max-width: 270px;
+  margin: 0 auto;
+}
+#widget1 {
+  padding-bottom: 2px;
+}
+.center-footer-Con .widget h4{
+  padding-bottom: 35px;
+  font-size: 18px;
+}
+.center-footer-Con .widget p{
+  font-size: 14px;
+}
+  /*REDES SOCIALES*/
+.Stitle h3 {
+  font-size: 16px;
+  font-family: 'Aldrich', sans-serif;
+  padding-top: 15px;
+  text-align: center;
+  color: rgb(228, 119, 114);
+}
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  width: 869px;
+}
+table.Redes {
+  width: 100%;
+    border: 10px;
+    text-align: center;
+}
+td {
+  padding: 15px;
+  display: table-cell;
+  vertical-align: inherit;
+}
+.redesS{
+  width: 100%;
+  background-color: none;
+  margin-top: 2px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+           }
+a {
+  text-decoration: none;
+  color: rgb(228, 119, 114);
+}
+a:hover {
+  color: #db3327;
+}
+/*FIN REDES SOCIALES*/
+.bottom-footer-Con{
+  background-color: rgb(228, 119, 114);
+  height:25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.bottom-footer-Con p{
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+}
+/*FIN DE PIE DE PÁGINA*/
+
+/*FIN DE CONTACTO.HTML
